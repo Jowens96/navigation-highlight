@@ -1,0 +1,78 @@
+html {
+  /* try taking away the normal part if this doesnt work */
+  font-family: normal 100%/ Georgia,serif;
+}
+
+body {
+  /* below code keeps white margins away from header */
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #ffe500;
+  margin: 0;
+  /* this padding makes the yellow block bigger */
+  padding: 1em 0;
+}
+
+h1 {
+  /* below line of code keeps the header without whitespace uptop */
+  margin: 0px;
+  text-align: center;
+  font-family: 'Sigmar One';
+  color: #cc1465;
+  padding-bottom: 0.4em;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #b2a212;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
+}
+
+h2 {
+  font-family: 'Sigmar One';
+  color: #cc1465;
+  padding-left: 0.3em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+img {
+  max-width: 100%;
+  padding-left: 0.5em;
+}
+
+p {
+  padding-left: 0.5em;
+  color: #2f2d13;
+}
+
+footer {
+  font-size: .75rem;
+  text-align: center;
+  background-color: #ffe500;
+  padding: .75em;
+}

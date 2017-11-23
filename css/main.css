@@ -1,29 +1,29 @@
 html {
   /* try taking away the normal part if this doesnt work */
-  font-family: normal 100%/ Georgia,serif;
+  font-family: Georgia;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 100%;
 }
 
 body {
   /* below code keeps white margins away from header */
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+
 }
 
 header {
   background-color: #ffe500;
   margin: 0;
-  /* this padding makes the yellow block bigger */
-  padding: 1em 0;
 }
 
 h1 {
-  /* below line of code keeps the header without whitespace uptop */
-  margin: 0px;
+  font-size: 3rem;
+  margin: 0;
   text-align: center;
-  font-family: 'Sigmar One';
+  font-family: "Sigmar One";
   color: #cc1465;
-  padding-bottom: 0.4em;
 }
 
 .nav {
@@ -31,10 +31,12 @@ h1 {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  font-size: 1.125rem;
 }
 
 .nav li {
   display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav a {
@@ -42,7 +44,7 @@ h1 {
   text-decoration: none;
   display: inline-block;
   background-color: #b2a212;
-  padding: 0.5em;
+  padding: .2em .5em .3em;
   border-radius: 4px;
 }
 
@@ -51,9 +53,9 @@ h1 {
 }
 
 h2 {
-  font-family: 'Sigmar One';
+  font-family: "Sigmar One";
   color: #cc1465;
-  padding-left: 0.3em;
+  font-size: 1.875rem;
 }
 
 .nav .current {
@@ -61,13 +63,21 @@ h2 {
 }
 
 img {
-  max-width: 100%;
-  padding-left: 0.5em;
+  display: block;
+  width: 100%;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 p {
-  padding-left: 0.5em;
   color: #2f2d13;
+  word-wrap: break-word;
+}
+
+main {
+  padding: 0 .75em;
 }
 
 footer {
